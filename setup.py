@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-    MY_PACKAGE
+    berater
 
     Copyright (c) 2021 Daniel Pepper
 
@@ -41,18 +41,18 @@ def discover_tests():
 
 if __name__ == '__main__':
     setuptools.setup(
-        name='MY_PACKAGE',
+        name='berater',
         version=__version__,
-        url='https://github.com/dpep/MY_PACKAGE_REPO',
+        url='https://github.com/dpep/berater_py',
         license='MIT',
         author='Daniel Pepper',
-        description='...',
+        description='do work...within limits',
         long_description=open('README.md').read(),
         long_description_content_type='text/markdown',
         platforms='any',
 
         packages=[
-            'MY_PACKAGE',
+            'berater',
         ],
 
         test_suite = 'setup.discover_tests',
